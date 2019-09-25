@@ -1,5 +1,5 @@
 # RxPicker
-超方便的拍照相册选择器
+超方便的拍照相册选择器,拥有单选、多选、拍照、预览图片缩放等功能。
 
 ![image](https://github.com/yoyoyaobin/RxPicker/blob/master/app/src/main/assets/1.png)
 
@@ -39,4 +39,4 @@ RxPicker.of()
 ```
 
 ## 感谢
-感谢原作者https://github.com/imuhao/RxPicker
+本库基于https://github.com/imuhao/RxPicker 修改，新增部分特性以及减少流程，感谢原作者。
