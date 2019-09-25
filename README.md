@@ -1,7 +1,7 @@
 # RxPicker
 超方便的拍照相册选择器
 
-![image](https://github.com/yoyoyaobin/RxPicker/blob/master/app/src/main/assets/1.jpg)
+![image](https://github.com/yoyoyaobin/RxPicker/blob/master/app/src/main/assets/1.png)
 
 ## 配置
 1.在project的build.gradle里配置
@@ -39,4 +39,4 @@ RxPicker.of()
 ```
 
 ## 感谢
-感谢原作者
+感谢原作者https://github.com/imuhao/RxPicker
