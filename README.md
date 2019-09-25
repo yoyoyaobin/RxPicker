@@ -1,6 +1,8 @@
 # RxPicker
 超方便的拍照相册选择器,拥有单选、多选、拍照、预览图片缩放等功能。
 
+![image](https://jitpack.io/v/yoyoyaobin/RxPicker.svg)
+
 ![image](https://github.com/yoyoyaobin/RxPicker/blob/master/app/src/main/assets/1.png)
 
 ## 配置
