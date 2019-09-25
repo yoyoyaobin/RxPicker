@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:selectableItemBackground"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    >
+
+  <ImageView
+      android:id="@+id/camera_txt"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_centerInParent="true"
+      android:src="@drawable/ic_grid_camera"
+      android:textColor="@color/rxpicker_width"
+      android:textSize="14sp"
+      />
+</RelativeLayout>

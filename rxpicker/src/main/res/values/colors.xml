@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="rxpicker_colorPrimary">#000000</color>
+  <color name="rxpicker_colorPrimaryDark">#ff212121</color>
+  <color name="rxpicker_colorPrimaryAlpha">#44000000</color>
+  <color name="rxpicker_colorAccent">#FF4081</color>
+  <color name="rxpicker_black">#000</color>
+  <color name="rxpicker_width">#FFF</color>
+  <color name="rxpicker_checkboxnormal">#0000</color>
+  <color name="rxpicker_checkboxactivated">#F5A623</color>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:id="@+id/ll_top"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      android:background="#000000"
+      android:orientation="horizontal"
+      android:gravity="center_vertical"
+      >
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/selector_backbtn_bg"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:maxWidth="120dp"
+        android:minWidth="50dp"
+        android:text="@string/all_phone_album"
+        android:textColor="@color/rxpicker_width"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:paddingLeft="7dp"
+        android:src="@drawable/ic_spinner_mtrl_am_alpha"
+        />
+  </LinearLayout>
+
+
+  <RelativeLayout
+      android:id="@+id/rl_bottom"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_alignParentBottom="true"
+      >
+    <ImageView
+        android:id="@+id/iv_select_preview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_eye_white"
+        />
+
+    <TextView
+        android:id="@+id/iv_select_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:text="确定"
+        android:textColor="@color/rxpicker_width"
+        />
+  </RelativeLayout>
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/recyclerView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/rl_bottom"
+      android:layout_below="@id/ll_top"
+      android:layout_marginLeft="1dp"
+      android:layout_marginRight="1dp"
+      android:layout_marginTop="1dp"
+      />
+</RelativeLayout>
