@@ -17,7 +17,7 @@ allprojects {
 ```
 2.在app的build.gradle里配置
 ```
-implementation 'com.github.yoyoyaobin:RxPicker:1.0.0'
+implementation 'com.github.yoyoyaobin:RxPicker:1.0.1'
 ```
 
 ## 使用方式
