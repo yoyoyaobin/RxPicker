@@ -15,6 +15,8 @@ import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
+
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -62,6 +64,12 @@ public class PickerFragmentPresenter extends PickerFragmentContract.Presenter {
         while (cursor.moveToNext()) {
           int imageId = cursor.getInt(0);
           String imagePath = cursor.getString(1);
+
+          File file = new File(imagePath);
+          if(!file.exists()){
+            break;
+          }
+
           String imageName = cursor.getString(2);
           long addTime = cursor.getLong(3);
 
